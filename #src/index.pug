@@ -1,0 +1,249 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Expice
+    link(rel="stylesheet" href="library/fontawesome/css/all.min.css")
+    link(rel="stylesheet" href="css/bootstrap.min.css")
+    link(rel="stylesheet" href="css/style.css")
+
+  body
+    .intro
+      .intro__inner
+        .container-xl
+          .row
+            .col-md-6
+              .intro__left.h-100
+                h1.intro__title Food
+                h3.intro__subtitle Discover Restaurant<br> & Delicious Food
+                .intro__input-wrapper.input-wrapper
+                  input.input-wrapper__input(type="text" placeholder="search restaurant, food")
+                  input.input-wrapper__btn(type="submit" value="go")  
+            .col-md-6
+              .intro__right.h-100
+                .intro__slider
+                  .intro__slider-wrapper
+                    img.intro__slider-bg(src="./img/slider-bg.webp" alt="")
+                    .intro__slider-item
+                      img.intro__slider-lettuce(src="./img/slider-lettuce.webp" alt="")
+                      img.intro__slider-img(src="img/slider-img.webp" alt="")
+      a.intro__btn(href="#!")
+        i.fas.fa-map-marker-alt
+        span Rajshahi
+      svg.intro__slider-arrow.intro__slider-left-arrow
+        use(xlink:href="img/svg/sprite.svg#arrow-left")
+      svg.intro__slider-arrow.intro__slider-right-arrow
+        use(xlink:href="img/svg/sprite.svg#arrow-right")
+      .intro__aside
+
+    section.somerestaurants
+      .somerestaurants__inner
+        .container-xl 
+          .somerestaurants_header
+            .row
+              .col-md-6
+                h3.somerestaurants__title.default-title some top restaurant for dining in or Take away!
+              .col-md-6
+                p.somerestaurants__subtitle Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing cursus auctor eget sed phasellus senectus. Ut tellus donec vestibulum tristique leo bibendum in a, tincidunt. Volutpat metus id amet, nam hac magna accumsan. Nascetur ac tortor purus ultrices morbi tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing cursus auctor eget sed.
+        .somerestaurants__content
+          .container-fluid 
+            .row
+              .col-md-4
+                .somerestaurants__col
+                  img.somerestaurants__col-firewater(src="./img/firewater-dot.webp" alt="")
+                  img.somerestaurants__col-img(src="./img/somerestaurants-img1.webp" alt="")
+                  .somerestaurants__col-bottom
+                    h6.somerestaurants__col-title Fire Water
+                    p.somerestaurants__col-text we are all about we are all about to the fullest and all content dining out or in!dining out or in!
+                    .somerestaurants__col-map
+                      i.fas.fa-map-marker-alt
+                      span New Market
+                    a.somerestaurants__col-btn(href="#!") Book Now
+              .col-md-4
+                .somerestaurants__col
+                  img.somerestaurants__col-wolton(src="./img/wolton-dot.webp" alt="")
+                  img.somerestaurants__col-img(src="./img/somerestaurants-img2.webp" alt="")
+                  .somerestaurants__col-bottom
+                    h6.somerestaurants__col-title The Wonton
+                    p.somerestaurants__col-text we are all about we are all about to the fullest and all content dining out or in!dining out or in!
+                    .somerestaurants__col-map
+                      i.fas.fa-map-marker-alt
+                      span Saheb Bazar
+                    a.somerestaurants__col-btn(href="#!") Book Now
+              .col-md-4
+                .somerestaurants__col
+                  button.somerestaurants__col-seemore
+                    svg
+                      use(xlink:href="./img/svg/sprite.svg#seemore")
+                    span See More
+
+    section.advancebook
+      img.advancebook__left-lettuce(src="./img/AB-left-lettuce.webp" alt="")
+      img.advancebook__right-lettuce(src="./img/AB-right-lettuce.webp" alt="")
+      .advancebook__content
+        img.advancebook__content-leftdot(src="./img/firewater-dot.webp" alt="")
+        img.advancebook__content-rightdot(src="./img/advancebook-right-dot.webp" alt="")
+        .advancebook__content-inner
+          h4.advancebook__title advance booking
+          .advancebook__input-wrapper.input-wrapper
+            input.input-wrapper__input(type="text" placeholder="search restrurent")
+            input.input-wrapper__btn(type="submit" value="go")
+          .advancebook__info-wrapper
+            .advancebook__info-piece
+              span date
+              p 23-09-2020
+            .advancebook__info-piece
+              span time
+              p 5.00 pM
+            .advancebook__info-piece
+              span Guests
+              p 3 People
+
+    section.ourservice
+      .ourservice__inner
+        .container-xl
+          .ourservice__header
+            h3.ourservice__title.default-title Our Services
+            p.ourservice__subtitle Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing cursus auctor eget sed phasellus senectus. Ut tellus donec vestibulum tristique leo bibendum in a, tincidunt. Volutpat metus id amet, nam hac magna accumsan. Nascetur ac tortor purus ultrices morbi tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing cursus auctor eget sed.
+        .ourservice__content
+          .container-xl
+            .row
+              .col-md-6
+                .ourservice__col.w-100.h-100
+
+                  .ourservice__col-table
+                    .ourservice__col-img
+                      svg.ourservice-img1
+                        use(xlink:href="./img/svg/sprite.svg#ourservice-img1")
+                    .ourservice__col-text
+                      svg.ourservice__long-arrow-left
+                        use(xlink:href="./img/svg/sprite.svg#long-arrow-left")
+                      h5 advanced table<br> booking
+                      p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+                  .ourservice__col-free
+                    .ourservice__col-text
+                      svg.ourservice__long-arrow-right
+                        use(xlink:href="./img/svg/sprite.svg#long-arrow-right")
+                      h5 Food For Free<br> 24/7
+                      p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    .ourservice__col-img
+                      svg.ourservice-img2
+                        use(xlink:href="./img/svg/sprite.svg#ourservice-img2")
+              .col-md-1
+              .col-md-5
+                .ourservice__col.w-100.h-100
+                  .ourservice__col-delivery.w-100.h-100
+                    svg
+                      use(xlink:href="./img/svg/sprite.svg#ourservice-img3")
+                    h5 free home delivery at your door steps
+                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+    section.explore
+      .container-xl
+        .explore__inner
+          .explore__header
+            h3.default-title.explore__title Explore Our Foods
+            p.explore__subtitle Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing cursus auctor eget sed phasellus senectus. Ut tellus donec vestibulum tristique leo bibendum in a, tincidunt. Volutpat metus id amet.
+          .explore__content
+            .row
+              .col-md-6.col-xl-4
+                .explore__col.w-100
+                  img.explore__col-img.img-fluid.w-100(src="./img/explore-img1.webp" alt="")
+                  .explore__col-content
+                    .explore__col-title
+                      h4 Hand Sandwich
+                      span $10.25
+                    p.explore__col-text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing.
+              .col-md-6.col-xl-4
+                .explore__col.w-100
+                  img.explore__col-img.img-fluid.w-100(src="./img/explore-img2.webp" alt="")
+                  .explore__col-content
+                    .explore__col-title
+                      h4 Hand Sandwich
+                      span $10.25
+                    p.explore__col-text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing.
+              .col-md-6.col-xl-4
+                .explore__col.w-100
+                  img.explore__col-img.img-fluid.w-100(src="./img/explore-img3.webp" alt="")
+                  .explore__col-content
+                    .explore__col-title
+                      h4 Hand Sandwich
+                      span $10.25
+                    p.explore__col-text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing.
+              .col-md-6.col-xl-4
+                .explore__col.w-100
+                  img.explore__col-img.img-fluid.w-100(src="./img/explore-img4.webp" alt="")
+                  .explore__col-content
+                    .explore__col-title
+                      h4 Hand Sandwich
+                      span $10.25
+                    p.explore__col-text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing.
+              .col-md-6.col-xl-4
+                .explore__col.w-100
+                  img.explore__col-img.img-fluid.w-100(src="./img/explore-img5.webp" alt="")
+                  .explore__col-content
+                    .explore__col-title
+                      h4 Hand Sandwich
+                      span $10.25
+                    p.explore__col-text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing.
+              .col-md-6.col-xl-4
+                .explore__col.w-100
+                  img.explore__col-img.img-fluid.w-100(src="./img/explore-img6.webp" alt="")
+                  .explore__col-content
+                    .explore__col-title
+                      h4 Hand Sandwich
+                      span $10.25
+                    p.explore__col-text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing.
+
+    section.download
+      .container-xl
+        .download__inner
+          .row
+            .col-md-5
+              .download__content.w-100.h-100
+                h3.download__title.default-title Download app for Exciting Deals
+                p.download__text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing cursus auctor eget sed phasellus senectus. Ut tellus donec vestibulum tristique leo bibendum in a, tincidunt.
+                .download__btn-group
+                  a.download__btn(href="#!")
+                    .download__btn-img
+                      i.fab.fa-google-play
+                    .download__btn-text
+                      span GET IT ON
+                      p google Play
+                  a.download__btn(href="#!")
+                    .download__btn-img
+                      i.fab.fa-apple
+                    .download__btn-text
+                      span DOWNLOAD ON THE
+                      p app store
+
+            .col-md-7
+              .download__img
+                img.download__img-phone(src="./img/download-phone.webp" alt="")
+                img.download__img-lettuce(src="./img/download-lettuce.webp" alt="")
+
+    section.getnotified
+      img.getnotified__img(src="./img/getnotified-img.webp", alt="")
+      .container-xl
+        .getnotified__inner
+          h3.getnotified__title Get notified about new amazing products
+          p.getnotified__subtitle Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing cursus auctor eget sed phasellus senectus.
+            .getnotified__input
+              .getnotified__input-wrapper.input-wrapper
+                input.input-wrapper__input(type="text" placeholder="search restrurent")
+                button.input-wrapper__btn
+                  i.fal.fa-long-arrow-right.input-wrapper__btn-icon
+            .getnotified__contact
+              ul.getnotified__list
+                li.getnotified__item
+                  a.getnotified__link(href="#!") Product
+                li.getnotified__item
+                  a.getnotified__link(href="#!") Company
+                li.getnotified__item
+                  a.getnotified__link(href="#!") Learn more
+                li.getnotified__item
+                  a.getnotified__link(href="#!") Get in touch
+    script(src="js/script.js")
